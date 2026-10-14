@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 14 16:52:23 ICT 2026
+https\://repo.unit.vn/repository/maven-private/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:2.7.18 from/to maven-private (https\://repo.unit.vn/repository/maven-private/)\: Connect to repo.unit.vn\:443 [repo.unit.vn/14.161.47.48] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1791971543520
+36483d03c6fa491350f94ed0e089105808e93156@default-maven-private-https\://repo.unit.vn/repository/maven-private/.lastUpdated=1791971408121

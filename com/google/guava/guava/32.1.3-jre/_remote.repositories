@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 17 13:57:14 GMT+07:00 2026
+guava-32.1.3-jre-sources.jar>maven-private=
+guava-32.1.3-jre.jar>maven-private=
+guava-32.1.3-jre.pom>maven-private=

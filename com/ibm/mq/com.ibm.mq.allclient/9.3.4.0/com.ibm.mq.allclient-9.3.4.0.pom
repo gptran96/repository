@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          http://maven.apache.org/maven-v4_0_0.xsd">
+  <!--  THIS PRODUCT CONTAINS RESTRICTED MATERIALS OF IBM
+    5724-H72 (C) COPYRIGHT International Business Machines Corp. 1994,2021
+    All Rights Reserved * Licensed Materials - Property of IBM
+    US Government Users Restricted Rights - Use, duplication or disclosure
+    restricted by GSA ADP Schedule Contract with IBM Corp.
+    -->
+  <licenses>
+    <license>
+      <name>IBM International Program License Agreement</name>
+      <url>https://www14.software.ibm.com/cgi-bin/weblap/lap.pl?li_formnum=L-CNQA-A6QGAQ</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.mq</groupId>
+  <artifactId>com.ibm.mq.allclient</artifactId>
+  <version>9.3.4.0</version>
+  <name>IBM MQ</name>
+  <url>https://www.ibm.com/software/products/en/ibm-mq</url>
+  <packaging>jar</packaging>
+  <description>IBM MQ classes for Java and JMS. This artifact is provided by the MQ Development organisation.
+  </description>
+  <scm>
+    <url>https://github.com/ibm-messaging</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>IBM MQ Development</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15to18</artifactId>
+      <version>1.76</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpkix-jdk15to18</artifactId>
+      <version>1.76</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcutil-jdk15to18</artifactId>
+      <version>1.76</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.jms</groupId>
+      <artifactId>javax.jms-api</artifactId>
+      <version>2.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20230618</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.15.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.15.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.15.2</version>
+    </dependency>
+  </dependencies>
+</project>

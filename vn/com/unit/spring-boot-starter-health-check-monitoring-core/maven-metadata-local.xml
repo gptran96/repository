@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>vn.com.unit</groupId>
+  <artifactId>spring-boot-starter-health-check-monitoring-core</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20261016085651</lastUpdated>
+  </versioning>
+</metadata>

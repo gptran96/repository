@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Apr 17 14:07:03 GMT+07:00 2026
-commons-logging-1.2.pom>central=
+#Fri Oct 16 15:29:50 ICT 2026
 commons-logging-1.2.pom>maven-private=
+commons-logging-1.2.jar>central=
+commons-logging-1.2.pom>central=
+commons-logging-1.2-sources.jar>central=

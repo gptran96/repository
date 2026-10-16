@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 16 15:29:07 ICT 2026
+@default-spring-ext-https\://repo.spring.io/ext-release-local/.lastUpdated=1792139347083
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/snapshot/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1792139347822
+https\://repo.spring.io/milestone/.lastUpdated=1792139347412
+https\://repo.spring.io/snapshot/.lastUpdated=1792139347710
+https\://repo.spring.io/ext-release-local/.error=Could not transfer artifact org.jboss.shrinkwrap.resolver\:shrinkwrap-resolver-bom\:pom\:2.2.0 from/to spring-ext (https\://repo.spring.io/ext-release-local/)\: status code\: 401, reason phrase\:  (401)

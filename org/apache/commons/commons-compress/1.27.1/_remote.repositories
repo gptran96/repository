@@ -1,6 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Nov 21 15:08:50 ICT 2026
-commons-compress-1.27.1.pom>maven-private=
+#Sat Nov 21 15:47:17 ICT 2026
 commons-compress-1.27.1.jar>central=
 commons-compress-1.27.1-sources.jar>central=
 commons-compress-1.27.1.pom>central=

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jline</groupId>
+  <artifactId>jline-reader</artifactId>
+  <version>3.30.16</version>
+  <name>JLine Reader</name>
+  <description>JLine</description>
+  <url>https://github.com/jline/jline3/jline-reader</url>
+  <licenses>
+    <license>
+      <name>The BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gnodet</id>
+      <name>Guillaume Nodet</name>
+      <email>gnodet@gmail.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/jline/jline3.git</connection>
+    <developerConnection>scm:git:https://github.com/jline/jline3.git</developerConnection>
+    <tag>jline-3.30.16</tag>
+    <url>https://github.com/jline/jline3</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>jline-publish</id>
+      <name>JLine3 Releases</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+    <snapshotRepository>
+      <id>jline-publish</id>
+      <name>JLine3 Snapshots</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jline</groupId>
+      <artifactId>jline-terminal</artifactId>
+      <version>3.30.16</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.14.4</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>apache-snapshots</id>
+      <name>Apache Snapshots</name>
+      <url>https://repository.apache.org/content/groups/snapshots</url>
+    </repository>
+  </repositories>
+</project>
